@@ -1,23 +1,87 @@
 {
-  "name": "smb2",
-  "description": "SMB2 Client",
-  "homepage": "https://github.com/bchelli/node-smb2",
-  "version": "0.2.11",
-  "engines": [
-    "node"
+  "_args": [
+    [
+      "@danielhuisman/smb2@0.14.0",
+      "/opt/aftercare-prod/nachsorge-api-server"
+    ]
   ],
+  "_from": "@danielhuisman/smb2@0.14.0",
+  "_id": "@danielhuisman/smb2@0.14.0",
+  "_inBundle": false,
+  "_integrity": "sha512-0Ng5AiHwzFVVAyCBFc6TLa16CDXUSQPg9RiFaTjliVWaaYvN9Z+he1FNh98heTYUO6LvzAsRGhn1rtVH8a4rxA==",
+  "_location": "/@danielhuisman/smb2",
+  "_phantomChildren": {
+    "inherits": "2.0.4",
+    "string_decoder": "1.1.1",
+    "util-deprecate": "1.0.2"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@danielhuisman/smb2@0.14.0",
+    "name": "@danielhuisman/smb2",
+    "escapedName": "@danielhuisman%2fsmb2",
+    "scope": "@danielhuisman",
+    "rawSpec": "0.14.0",
+    "saveSpec": null,
+    "fetchSpec": "0.14.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@danielhuisman/smb2/-/smb2-0.14.0.tgz",
+  "_spec": "0.14.0",
+  "_where": "/opt/aftercare-prod/nachsorge-api-server",
   "author": {
     "name": "Benjamin Chelli",
     "email": "benjamin@chelli.net",
     "url": "https://github.com/bchelli"
   },
-  "main": "lib/smb2.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bchelli/node-smb2"
+  "bugs": {
+    "url": "https://github.com/DanielHuisman/node-smb2/issues"
   },
+  "contributors": [
+    {
+      "name": "Fabrice Marsaud",
+      "email": "fabrice.marsaud@vates.fr",
+      "url": "https://github.com/marsaud"
+    },
+    {
+      "name": "Daniel Huisman",
+      "email": "daniel@huisman.me",
+      "url": "https://github.com/DanielHuisman"
+    }
+  ],
   "dependencies": {
-    "ntlm": "^0.1.3"
+    "ntlm": "~0.1.1",
+    "readable-stream": "^3.0.6"
+  },
+  "description": "SMB2 Client",
+  "devDependencies": {
+    "@iarna/toml": "^2.2.1",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "get-stream": "^5.1.0",
+    "golike-defer": "^0.4.1",
+    "husky": "^2.2.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.3",
+    "promise-toolbox": "^0.12.1",
+    "tap": "^13.1.2"
+  },
+  "engines": {
+    "node": ">=5.10"
+  },
+  "homepage": "https://github.com/DanielHuisman/node-smb2",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "keywords": [
     "SMB",
@@ -26,5 +90,23 @@
     "NTLM",
     "CIFS",
     "Samba"
-  ]
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add",
+      "eslint"
+    ]
+  },
+  "main": "lib/smb2.js",
+  "name": "@danielhuisman/smb2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielHuisman/node-smb2.git"
+  },
+  "scripts": {
+    "test": "tap ./test"
+  },
+  "version": "0.14.0"
 }
