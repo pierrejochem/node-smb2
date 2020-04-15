@@ -1,15 +1,15 @@
 {
   "_args": [
     [
-      "@danielhuisman/smb2@0.14.0",
+      "@pierrejochem/smb2@0.14.0",
       "/opt/aftercare-prod/nachsorge-api-server"
     ]
   ],
-  "_from": "@danielhuisman/smb2@0.14.0",
-  "_id": "@danielhuisman/smb2@0.14.0",
+  "_from": "@pierrejochem/smb2@0.14.0",
+  "_id": "@pierrejochem/smb2@0.14.0",
   "_inBundle": false,
   "_integrity": "sha512-0Ng5AiHwzFVVAyCBFc6TLa16CDXUSQPg9RiFaTjliVWaaYvN9Z+he1FNh98heTYUO6LvzAsRGhn1rtVH8a4rxA==",
-  "_location": "/@danielhuisman/smb2",
+  "_location": "/@pierrejochem/smb2",
   "_phantomChildren": {
     "inherits": "2.0.4",
     "string_decoder": "1.1.1",
@@ -18,10 +18,10 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@danielhuisman/smb2@0.14.0",
-    "name": "@danielhuisman/smb2",
-    "escapedName": "@danielhuisman%2fsmb2",
-    "scope": "@danielhuisman",
+    "raw": "@pierrejochem/smb2@0.14.0",
+    "name": "@pierrejochem/smb2",
+    "escapedName": "@pierrejochem%2fsmb2",
+    "scope": "@pierrejochem",
     "rawSpec": "0.14.0",
     "saveSpec": null,
     "fetchSpec": "0.14.0"
@@ -29,7 +29,7 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@danielhuisman/smb2/-/smb2-0.14.0.tgz",
+  "_resolved": "https://registry.npmjs.org/@pierrejochem/smb2/-/smb2-0.14.0.tgz",
   "_spec": "0.14.0",
   "_where": "/opt/aftercare-prod/nachsorge-api-server",
   "author": {
@@ -38,23 +38,18 @@
     "url": "https://github.com/bchelli"
   },
   "bugs": {
-    "url": "https://github.com/DanielHuisman/node-smb2/issues"
+    "url": "https://github.com/pierrejochem/node-smb2/issues"
   },
   "contributors": [
     {
-      "name": "Fabrice Marsaud",
-      "email": "fabrice.marsaud@vates.fr",
-      "url": "https://github.com/marsaud"
-    },
-    {
-      "name": "Daniel Huisman",
-      "email": "daniel@huisman.me",
-      "url": "https://github.com/DanielHuisman"
+      "name": "Pierre Jochem",
+      "email": "pierrejochem@msn.com",
+      "url": "https://github.com/pierrejochem"
     }
   ],
   "dependencies": {
     "ntlm": "~0.1.1",
-    "readable-stream": "^3.0.6"
+    "readable-stream": "^3.6.0"
   },
   "description": "SMB2 Client",
   "devDependencies": {
@@ -77,7 +72,7 @@
   "engines": {
     "node": ">=5.10"
   },
-  "homepage": "https://github.com/DanielHuisman/node-smb2",
+  "homepage": "https://github.com/pierrejochem/node-smb2",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -100,10 +95,10 @@
     ]
   },
   "main": "lib/smb2.js",
-  "name": "@danielhuisman/smb2",
+  "name": "@pierrejochem/smb2",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanielHuisman/node-smb2.git"
+    "url": "git+https://github.com/pierrejochem/node-smb2.git"
   },
   "scripts": {
     "test": "tap ./test"
