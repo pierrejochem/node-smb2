@@ -1,12 +1,12 @@
 {
   "_args": [
     [
-      "@pierrejochem/smb2@0.14.0",
+      "@pierrejochem/smb2@0.15.0",
       "/opt/aftercare-prod/nachsorge-api-server"
     ]
   ],
-  "_from": "@pierrejochem/smb2@0.14.0",
-  "_id": "@pierrejochem/smb2@0.14.0",
+  "_from": "@pierrejochem/smb2@0.15.0",
+  "_id": "@pierrejochem/smb2@0.15.0",
   "_inBundle": false,
   "_integrity": "sha512-0Ng5AiHwzFVVAyCBFc6TLa16CDXUSQPg9RiFaTjliVWaaYvN9Z+he1FNh98heTYUO6LvzAsRGhn1rtVH8a4rxA==",
   "_location": "/@pierrejochem/smb2",
@@ -18,19 +18,19 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@pierrejochem/smb2@0.14.0",
+    "raw": "@pierrejochem/smb2@0.15.0",
     "name": "@pierrejochem/smb2",
     "escapedName": "@pierrejochem%2fsmb2",
     "scope": "@pierrejochem",
-    "rawSpec": "0.14.0",
+    "rawSpec": "0.15.0",
     "saveSpec": null,
-    "fetchSpec": "0.14.0"
+    "fetchSpec": "0.15.0"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@pierrejochem/smb2/-/smb2-0.14.0.tgz",
-  "_spec": "0.14.0",
+  "_resolved": "https://registry.npmjs.org/@pierrejochem/smb2/-/smb2-0.15.0.tgz",
+  "_spec": "0.15.0",
   "_where": "/opt/aftercare-prod/nachsorge-api-server",
   "author": {
     "name": "Benjamin Chelli",
@@ -103,5 +103,5 @@
   "scripts": {
     "test": "tap ./test"
   },
-  "version": "0.14.0"
+  "version": "0.15.0"
 }
